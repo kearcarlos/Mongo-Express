@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tienda Mesas</title>
+</head>
+<body>
+    <div>
+        <h3>Añadir mesas</h3>
+        <input type="text" placeholder="Tamaño" id="tamanyo"/>
+        <input type="text" placeholder="Color" id="color"/>
+        <input type="text" placeholder="Material" id="material"/>
+        <input type="text" placeholder="Número de patas" id="patas"/>
+        <button onclick="anyadir()">Añadir</button>
+    </div>
+
+    <div>
+        <h3>Cambiar color</h3>
+        <input type="text" placeholder="Color a cambiar" id="cambiarColor"/>
+        <button onclick="cambiarColor()">Cambiar color a granate</button>
+    </div>
+
+    <div>
+        <h3>Borrar patas</h3>
+        <input type="text" placeholder="Número de patas a borrar" id="borrarPatas"/>
+        <button onclick="borrarPatas()">Borrar patas</button>
+    </div>
+
+
+    <div id="div1"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
